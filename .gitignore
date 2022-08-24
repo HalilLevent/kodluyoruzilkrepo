@@ -1,10 +1,12 @@
 # Folders
 
-dizin/*
+image/*
 
 # İmg
 *.jpg
-*
+*.png
+*.svg
+*.ico
 
 # Kayıt Olmasını İstemediğim Dosylar
 *.[ao]
