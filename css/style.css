@@ -1,0 +1,63 @@
+/* menu css */
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27ae60;
+}
+.menu ul li{
+    float: left;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 12px 14px;
+    background-color: #27ae60;
+    color: #fffff0;
+    text-align: center;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: #23834c;
+    color: #fff5ee;
+}
+/* Açılır menu css */
+.menu ul li ul{
+    display: none;
+    position: absolute;
+    width: 120px;
+    text-align: left;
+    background-color: #27ae60;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul li ul li{
+    display: block;
+}
+/* Aktif sayfa menu css */
+#menuaktif{
+    background-color: #f39c12;
+    color: #fff5ee;    
+}
+#menuaktif:hover{
+    background-color: #c58216;
+    color: #fffff0;
+}
+
+/* Yazar'ın Kendi Fotoğrafı css */
+.imagefloat{
+    float:left;
+    padding:0px 20px 10px 0px;
+}
+
+/* Genel Ayarlamalar */
+
+body{
+    background-color: white;
+    color: #000000;
+}
+body a{
+    color: #003366;
+}

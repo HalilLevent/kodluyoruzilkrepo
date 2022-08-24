@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodluyoruz Abey</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Kapsayısı Div 1 -->
-    <div style="align-items:right ;">
+    <div>
+        <!-- Menü Div -->
+        <div class="menu">
+           <ul>
+            <li><a id="menuaktif" href="index.html" target="_self">Anasayfa</a></li>
+            <li><a href="linked.html">About Me</a></li>
+            <li><a href="linked.html">Blog</a></li>
+            <li><a href="linked.html">Portfolio</a>
+                <ul>
+                    <li><a href="https://github.com/HalilLevent/kodluyoruzilkrepo.git">Git Projem</a></li>
+                    <li><a href="https://github.com/HalilLevent/kodluyoruzilkrepo.git">Html Projem</a></li>
+                </ul>
+            </li>
+            <li><a href="linked.html">Contact</a></li>
+           </ul>
+        </div>
         <!-- Kapsayıcı Div 1.1 -->
-        <div style="float:left;padding:0px 20px 10px 0px;"> 
+        <div class="imagefloat"> 
             <!-- Yazar'ın Resminin Eklenmesi --> 
             <img src="image/myphoto.jpg" alt="Yazar'ın Kendi Fotoğrafı" title="Yazar'ın Kendi Fotoğrafı" height="300" width="300" style="border:5px dotted;">
         </div>
@@ -38,6 +54,7 @@
                 <i>Yukarıda listelediğim şeyleri yapmaktan gerçekten çok keyif aldığım süreçler ile sürekli devam ettirmeye çalışıyorum. Umarım bir gün bu güzel hobileriminde bana katkısı ile hedeflerime ulaşırım. </i>
             </p>
             <!-- Hobiler bitişi -->
+            <!-- <img src="https://picsum.photos/1350/250" alt="Lorem Picsum'dan Alınmış Rastgele Fotoğraf" title="Lorem Picsum'dan Alınmış Rastgele Fotoğraf"> -->
             <!-- İçerik Bitişi -->
         </div>
     </div>
